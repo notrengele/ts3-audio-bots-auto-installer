@@ -1,0 +1,65 @@
+														HyperGaming.rs AUTO INSTALLER
+==================
+STEP #1
+
+apt-get update
+apt-get upgrade -y
+apt-get install curl
+apt-get install nano
+
+==================
+STEP #2
+==================
+
+Open WinSCP
+Connect VPS Server
+Upload Script
+	[start.sh and sistems scripts ubuntu and debain]
+
+==================
+STEP #3
+==================
+
+[ On Terminal CMD ]
+chmod +x start.sh
+./start.sh
+
+STEP #4
+==================
+
+/home/bots
+
+Press
+	[ CTRL + A + D ]
+
+==================
+STEP #5
+==================
+
+sudo apt-get install youtube-dl
+sudo apt-get install python-pip
+sudo pip install youtube-dl
+sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+x /usr/local/bin/youtube-dl
+hash -r
+sudo youtube-dl -U
+
+==================
+STEP #6
+==================
+
+[ ON TS3 CHANNEL ]
+!api token
+!alias add trazi "!x (!search from youtube (!param 0)) (!search play 0)"
+!rights reload
+
+==================
+STEP #7
+==================
+
+[ JUST IN CASE! ]
+TO STOP ALL BOTS [ screen -R ]
+FOR STARTING DEFAULT BOT AND PANEL [ screen dotnet ./TS3AudioBot.dll]
+TO EDIT rights.toml [ nano rights.toml ]
+
+=====================================================================
